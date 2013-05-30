@@ -1,0 +1,62 @@
+Hallo,
+willkommen im ersten Teil des Autohotkey Tutorials.
+
+Hier in diesem Teil des Tutorials werdet ihr lernen, wie man Programme Automatisiert,
+Befehle benutzt die Hilfe liest und ihr werdet einige Befehle lernen, 
+sowie einen ersten Einblick in das Programmieren mit Autohotkey erhalten.
+Zuerst werden wir einen Blick auf Autohotkey selber werfen.
+
+
+
+Was bedeutet Automatisieren mit Autohotkey?
+
+  Automatisieren bedeutet dass man Arbietsschritte, die ihr sonst selber übernehmen müsstet,
+	dem Computer überlässt, der diese dann ohne euer zutun erledigt. In diesem speziellen Fall
+	wollen wir Programme Automatisieren, diese dazu bringen eine ihrer Funktionen ohne euer 
+	Zutun ausführen zu lassen.
+
+Wieso sollte man ein Programm Automatisieren?
+
+	Wenn sehr viele Arbeitsschritte immer wieder wiederholt werden müssen kann das für einen 
+	Menschen sehr ermüdent sein und es dauert Lange und verbraucht eure Zeit. Zudem macht man 
+	als Mensch Fehler und ihr müsst Arbeitsschritte wiederholen. 
+	Ein gutes Beispeiel ist das umbenennen vieler Dateien. Z.B. meine Kamera versieht alle Fotos
+	mit der Makierung DCIM im Dateinamen (z.B. DCIMUrlaub-Spanien1.jpg). Wenn ich nun alle 400-
+	500 Dateien von Hand umbennen müsste würde das Stunden dauern. Leichter geht es mit AHK
+	Mit diesem Problem werden wir auch im nächsten Kapitel dieses Tutorials beschäftigen.
+
+Wieso extra Autohotkey lernen, es gibt doch für sowas bereits fertige Skripte und Programme?
+
+	Autohotkey ist besonders dann Sinnvoll wenn ihr ein Problem habt, und es dafür kein Programm 
+	gibt oder wenn ihr keins findet. Z.B. um die Firmen Software zu Automatisieren könntet ihr 
+	Autohotkey benutzen. 
+	Zudem gibt es viele Probleme für die ihr immer wieder ein Programm suchen müsst. 
+	Das dauert und frisst speicherplatz. Wenn ihr einmal AHK gelernt habt braucht ihr das nicht.
+	Hinzu kommt, das ihr alles speziell an eure Bedürfnisse anpassen könnt, was bei manchen 
+	externen Programmen nicht geht.
+	Der mit abstand wichtigste Grund ist aber, dass ihr mit AHK eine Skriptsprache lernt, mit der
+	man sehr viel machen kann.
+
+Was kann Autohotkey eigentlich?
+
+	Fast alles ist mit AHK möglich. Ich selber hatte nie Probleme wegen des Umfangs sondern eher 
+	wegen der Performance der Skriptsprache, die wie bei allen Skriptsprachen schlechter ist als
+	die von Kompilierten Sprachen, dafür aber auch flexibler sind.
+
+
+Warum heist es Autohotkey?
+
+	Der Name Autohotkey besteht aus den 2 Teilen Auto und Hotkey. 
+	Autohotkey ist eigenltich aus AutoOlt entstanden, einer anderen Skriptsprache. Chris Mallet,
+	der Entwckler von Autohotkey_Basic, hat sich in AutoOlt eine bessere Umsetzung für Hotkeys 
+	gewünscht und hat dann Autohotkey geschrieben. Hotkeys sind Tasten oder Tastenkombinationen, 
+	die eine gewisse Aktion auslösen z.B. Alt+Tab oder Alt+F4. Jedoch wollte die Community bald
+	mehr funktionsumfanh für AHK, was Chris nicht wollte. Eine andere Parralelversion von AHK 
+	wurde erstellt namens AHK_L. Auf dieser Version basiert das jetzige AHK immer noch. Weil
+	AHK_L damals immer mehr Fürsprecher fand, entstand eine Diskussion welches nun die 
+	Hauptversion sei entweder AHK_L, welches grösstenteils von Lexikos stammt oder AHK_Basic.
+	Die Community entschied sich für AHK_L welches nun der kürze halber AHK genannt wird.
+	Viele der starken Unterschiede, innerhalb der AHK schreibweise, sind aufgrund dieses Umstiegs 
+	entstanden. 
+
+Aber fangen wir doch einfach mal mit dem Tutorial an.
