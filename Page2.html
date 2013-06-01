@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Autohotkey Tutorial - Einstieg - nnnik's Page</title>
+    <title>AutoHotkey Tutorial - Einstieg - nnnik's Page</title>
     <link rel="stylesheet" href="http://nnnik.github.io/stylesheets/styles.css">
     <link rel="stylesheet" href="http://nnnik.github.io/stylesheets/pygment_trac.css">
     <script src="http://nnnik.github.io/javascripts/scale.fix.js"></script>
@@ -16,7 +16,7 @@
   <body>
     <div class="wrapper">
       <header class="without-description">
-        <h1>Autohotkey Tutorial von nnnik</h1>
+        <h1>AutoHotkey Tutorial von nnnik</h1>
         <p></p>
         <p class="view"><a href="https://github.com/nnnik/nnnik.github.io">View the Project on GitHub</a></p>
         <ul>
@@ -24,48 +24,70 @@
         </ul>
       </header>
       <section>
-<h3>Einstieg</h3>
-<pre class="question">Was bedeutet Automatisieren mit Autohotkey ?</pre>
-<p style="font-size:13px;">Automatisieren bedeutet, dass man Arbeitsschritte, die ihr sonst selber übernehmen müsstet, 
-dem Computer überlasst, der diese dann ohne euer zutun erledigt.
-<br>In diesem speziellen Fall bedeutet es, dass wir Programme Automatisieren wollen, diese dazu
-bringen eine ihrer Funktionen ohne euer zutun ausführen zu lassen.</p>
-<br>
-<pre class="question">Wieso sollte man ein Programm Automatisieren ?</pre>
-<p style="font-size:13px;">Wenn sehr viele Arbeitsschritte immer wieder wiederholt werden müssen kann das für einen 
-Menschen sehr ermüdent sein und es dauert Lange und verbraucht eure Zeit.<br> Zudem macht man als Mensch Fehler und ihr müsst Arbeitsschritte wiederholen.<br>
-Ein gutes Beispeiel ist das umbenennen vieler Dateien:<br> Meine Kamera versieht alle Fotos mit der Makierung DCIM im Dateinamen z.B. DCIMUrlaub-Spanien.jpg.<br>Wenn ich nun alle 400-500 Dateien von Hand umbennen müsste würde das Stunden dauern.<br> Leichter geht dies mit Autohotkey.
-Mit diesem Problem werden wir uns auch im nächsten Kapitel dieses Tutorials beschäftigen.</p>
-<br>
-<pre class="question">Wieso extra Autohotkey lernen ?<br>Es gibt doch für sowas bereits fertige <br>Skripte und Programme, oder ?</pre>
-<p style="font-size:13px;">Autohotkey ist besonders dann Sinnvoll wenn ihr ein Problem habt, und es dafür kein Programm 
-gibt oder wenn ihr keins findet, z.B. um die Firmen Software zu Automatisieren, könntet ihr 
-Autohotkey benutzen.<br> 
-Zudem gibt es viele Probleme, für die ihr immer wieder ein Programm suchen müsst, was dauert und Speicherplatz frisst. Wenn ihr einmal AHK gelernt habt braucht ihr das nicht.<br>
-Hinzu kommt, das ihr alles speziell an eure Bedürfnisse anpassen könnt, was bei manchen 
-externen Programmen nicht geht.<br>
-Der mit Abstand wichtigste Grund ist aber, dass ihr mit AHK eine Skriptsprache lernt, mit der
-man sehr viel machen kann.</p>
-<br>
-<pre class="question">Was kann Autohotkey eigentlich ?</pre>
-<p style="font-size:13px;"><strong>Fast alles ist mit AHK möglich. </strong><br>Ich selber hatte nie Probleme wegen des Umfangs sondern eher 
-wegen der Performance der Skriptsprache, die wie bei allen Skriptsprachen, schlechter ist als
-die von Kompilierten Sprachen.<br> Eine Skriptsprache wie AHK ist dafür aber auch einfacher zu lernen und flexibler.</p>
-<br>
-<pre class="question">Woher kommt der Name Autohotkey ?</pre>
-<p style="font-size:13px;">Der Name Autohotkey besteht aus den 2 Teilen Auto und Hotkey. <br>
-Autohotkey ist eigenltich aus Autolt entstanden, einer anderen Skriptsprache.<br> 
-Chris Mallet, der Entwckler von Autohotkey_Basic, hat sich in AutoOlt eine bessere Umsetzung für Hotkeys 
-gewünscht und hat dann Autohotkey geschrieben.<br> 
-Hotkeys sind Tasten oder Tastenkombinationen, die eine bestimmte Aktion auslösen z.B. Alt+Tab.<br> 
-Jedoch wollte die Community bald mehr Funktionsumfang für AHK, was Chris nicht wollte, er entschied sich AHK_basic nicht nach den Wünschen der Community anzupassen. <br>
-Eine andere Parralelversion von AHK wurde erstellt namens AHK_L.<br> Auf dieser Version basiert das jetzige AHK immer noch.<br> 
-Weil AHK_L damals immer mehr Fürsprecher fand, entstand eine Diskussion welches nun die 
-Hauptversion sei entweder AHK_L, welches grösstenteils von Lexikos stammt, oder AHK_Basic.<br>
-Die Community entschied sich für AHK_L welches nun der kürze halber AHK genannt wird.<br>
-Viele der starken Unterschiede, innerhalb der AHK schreibweise, sind aufgrund dieses Umstiegs entstanden.</p>
-<br>
-<a href="Page1" style="float:left;">Zurück zum voherigen Kapitel</a>
+<pre class="question">Was bedeutet Automatisieren mit AutoHotkey ?</pre>
+<p style="font-size:13px;">Automatisieren bedeutet, dass man
+Arbeitsschritte, die ihr sonst selber übernehmen müsstet, dem
+Computer überlasst, der diese dann ohne euer zutun erledigt. <br>
+In diesem speziellen Fall bedeutet es, dass wir Programme automatisieren
+wollen, diese dazu bringen, eine ihrer Funktionen ohne euer Zutun
+ausführen zu lassen.</p>
+<pre class="question">Wieso sollte man ein Programm automatisieren ?</pre>
+<p style="font-size:13px;">Wenn sehr viele Arbeitsschritte immer wieder
+wiederholt werden müssen, kann das für einen Menschen sehr
+ermüdend sein und es dauert lange und verbraucht eure Zeit.<br>
+Zudem macht man als Mensch Fehler und ihr müsst deshalb Arbeitsschritte wiederholen.<br>
+Ein gutes Beispiel ist das Umbenennen vieler Dateien:<br>
+Meine Kamera versieht alle Fotos mit der Markierung DCIM im Dateinamen z.B. DCIMUrlaub-Spanien.jpg.<br>
+Wenn ich nun alle 400-500 Dateien von Hand umbenennen müsste, würde
+das Stunden dauern.<br>
+Leichter geht dies mit AutoHotkey. Mit diesem Problem
+werden wir uns auch im nächsten Kapitel dieses Tutorials
+beschäftigen.</p>
+<pre class="question">Wieso extra AutoHotkey lernen ?<br>
+Es gibt doch für so was bereits fertige <br>
+Skripte und Programme, oder ?</pre>
+<p style="font-size:13px;">AutoHotkey ist besonders dann sinnvoll, wenn ihr ein Problem
+habt, und es dafür kein Programm gibt oder wenn ihr keins findet, z.B. um
+die Firmen Software zu automatisieren, dann könntet ihr AutoHotkey
+benutzen.<br>
+Zudem gibt es viele Probleme, für die ihr immer wieder ein Programm suchen
+müsst, was dauert und letztendlich Speicherplatz frisst. Wenn ihr einmal AHK gelernt
+habt, braucht ihr das nicht.<br>
+Hinzu kommt, dass ihr alles speziell an eure Bedürfnisse anpassen
+könnt, was bei manchen externen Programmen nicht geht.<br>
+Der mit Abstand wichtigste Grund ist aber, dass ihr mit AHK eine Skriptsprache
+lernt, mit der man sehr viel machen kann.</p>
+<pre class="question">Was kann AutoHotkey eigentlich ?</pre>
+<p><strong>Fast alles ist mit AHK möglich. </strong><br>
+Ich selber hatte nie Probleme wegen des Umfangs, sondern eher wegen der
+Performance der Skriptsprache, die wie bei allen Skriptsprachen schlechter ist
+als die von kompilierten Sprachen.<br>
+Eine Skriptsprache wie AHK ist dafür aber auch einfacher zu lernen und
+flexibler.</p>
+<pre class="question">Woher kommt der Name AutoHotkey ?</pre>
+<p style="font-size:13px;">Der Name AutoHotkey
+besteht aus den 2 Teilen Auto und Hotkey. <br>
+AutoHotkey ist eigentlich aus AutoIt
+entstanden, einer anderen Skriptsprache.<br>
+Chris Mallet, der Entwickler von AutoHotkey_Basic,
+hat sich in AutoIt eine bessere Umsetzung für Hotkeys gewünscht und hat dann AutoHotkey
+geschrieben.<br>
+Hotkeys sind Tasten oder Tastenkombinationen, die
+eine bestimmte Aktion auslösen z.B. Alt+Tab.<br>
+Jedoch wollte die Community bald mehr Funktionsumfang
+für AHK, was Chris nicht wollte, er entschied sich AHK_Basic
+nicht nach den Wünschen der Community
+anzupassen. <br>
+Eine andere Parallelversion von AHK wurde erstellt namens AHK_L.<br>
+Auf dieser Version basiert das jetzige AHK immer noch.<br>
+Weil AHK_L damals immer mehr Fürsprecher fand, entstand eine Diskussion,
+welches nun die Hauptversion sei, entweder AHK_L, welches grösstenteils
+von Lexikos stammt, oder AHK_Basic.<br>
+Die Community entschied sich für AHK_L, welches
+nun der Kürze halber AHK genannt wird.<br>
+Viele der starken Unterschiede innerhalb der AHK Schreibweise sind aufgrund
+dieses Umstiegs entstanden.</p>
+<a href="Page1" style="float:left;">Zurück zum vorherigen Kapitel</a>
 <a href="Page3" style="float:right;">Weiter zum nächsten Kapitel</a>
 <br>
 </section>
