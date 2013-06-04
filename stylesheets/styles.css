@@ -246,10 +246,14 @@ pre {
 
 .question {
   font-size:16px;
-  color:rgb(198, 234, 250);
+  color:#C6EAFA;
   font-weight:700;
 }
 
+.code {
+background: #C6EAFA;
+font: normal normal 700 16px/normal Arial;
+}
 pre code {
   font-size: 12px;
   color: #f8f8f2;
