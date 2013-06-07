@@ -19,7 +19,13 @@ fixScale = function(doc) {
 
 };
 
-function ToggleVisibility(id)
+ToggleVisibility = function(id) {
+if document.getElementById(id).style.visibility=='hidden';
 {
-alert("");
+document.getElementById(id).style.visibility='visible';	
+}
+else
+{
+document.getElementById(id).style.visibility='visible';		
+}
 }
