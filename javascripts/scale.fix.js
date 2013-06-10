@@ -19,13 +19,13 @@ fixScale = function(doc) {
 
 };
 
-ToggleVisibility = function(id) {
+function ToggleVisibility(id) {
 if document.getElementById(id).style.visibility=='hidden';
 {
 document.getElementById(id).style.visibility='visible';	
 }
 else
 {
-document.getElementById(id).style.visibility='visible';		
+document.getElementById(id).style.visibility='hidden';		
 }
 }
